@@ -1,0 +1,35 @@
+
+****************************************************************************************************************************************************
+** 08/11/2020
+****************************************************************************************************************************************************
+// Lucy - Houkr Metal Hotend -> 240 (M303 E0 C8 S240)
+#define DEFAULT_Kp 19.71
+#define DEFAULT_Ki 1.48
+#define DEFAULT_Kd 65.80
+M301 P19.71 I1.48 D65.80
+
+// Lucy - Stock bed replacement + pei spring steel magnet plate -> 80 (M303 E-1 C8 S80)
+#define DEFAULT_bedKp 159.94
+#define DEFAULT_bedKi 31.49
+#define DEFAULT_bedKd 541.55
+M304 P159.94 I31.49 D541.55
+
+==============================================================================================================================
+
+Lucy - Hokur All Metal HotEnd
+
+M303 E0 235
+Recv: PID Autotune finished! Put the last Kp, Ki and Kd constants from below into Configuration.h
+Recv: #define DEFAULT_Kp 21.06
+Recv: #define DEFAULT_Ki 1.37
+Recv: #define DEFAULT_Kd 80.65
+
+Klipper - Hokur All Metal HotEnd => 235C
+Recv: // PID parameters: pid_Kp=22.174 pid_Ki=1.056 pid_Kd=116.414
+Recv: // The SAVE_CONFIG command will update the printer config file
+Recv: // with these parameters and restart the printer.
+
+Klipper - Stock Bed/Borosilicate Glass/PEI Sheet => 90C
+PID parameters: pid_Kp=72.829 pid_Ki=1.571 pid_Kd=843.900
+The SAVE_CONFIG command will update the printer config file
+with these parameters and restart the printer.
